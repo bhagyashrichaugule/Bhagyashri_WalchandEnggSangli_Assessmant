@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Chaugule Stories</title>
+    
+</head>
+<body>
+   <!-- Header Section -->
+     <header class="header">
+         <a href="#" class="logo"> <i class="fa-solid fa-paintbrush"></i> Chaugule Stories</a>
+
+         <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#products">product</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+         </nav>
+
+         <div class="icons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-search" id="search-btn"></div>
+            <div class="fa-solid fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa-solid fa-user" id="login-btn"></div>  
+         </div>
+
+         <form class="search-form"> 
+            <input type="search" id="search-box" placeholder="Search here">
+            <label for="search-box" class="fa fa-search"></label>
+         </form>
+ 
+         <div class="shopping-cart">
+            <div class=box>
+                <i class="fa fa-trash"></i>
+                <img src="./images/cart1.jpg" height="15%" width="15%" style="border-radius: 15%;">
+                <div>
+                   <h3> Painting Craft</h3>
+                   <span class="price">₹100/-</span>
+                   <span class="quantity" style="padding-left:1rem;">Qty: 2</span>
+                </div>
+            </div>
+
+            <div class=box>
+                <i class="fa fa-trash"></i>
+                <img src="./images/cart2.jpeg" height="15%" width="15%" style="border-radius: 15%;">
+                <div>
+                   <h3>Wall Hanging Craft</h3>
+                   <span class="price">₹400/-</span>
+                   <span class="quantity" style="padding-left:1rem;">Qty: 1</span>
+                </div>
+            </div>
+
+            <div class=box>
+                <i class="fa fa-trash"></i>
+                <img src="./images/cart3.jpeg" height="15%" width="15%" style="border-radius: 15%;">
+                <div>
+                   <h3> flower Craft</h3>
+                   <span class="price">₹200/-</span>
+                   <span class="quantity" style="padding-left:1rem;">Qty: 2</span>
+                </div>
+            </div>
+
+            <div class="total">Total : ₹700/-</div>
+            <a href="#" class="btn" style="display: block;"> Proceed </a>
+         </div>
+        
+         <form action="#" class="login-form">
+            <h3 style="font-size: 2.5rem;text-transform: uppercase;color:var(--earthy)">Sign In</h3>
+            <input type="email" placeholder="Enter your mail" class="box">
+            <input type="password" placeholder="Enter password" class="box">
+
+            <p>Forgot Password <a href="#">Reset Password</a></p>
+            <p>New User <a href="#">Sign Up</a></p>
+
+            <input type="submit" value="Sign In" class="btn">
+          </form>
+     </header>
+     
+     <!-- HomePage Section -->
+     <section class="home" id="home">
+
+         <div class="content">
+            <img src="./images/title.jpg" alt="title">
+            <p>Chaugule Art Pieces that Speak to the Soul</p>
+
+            <a href="#" class="btn">Shop Now</a>
+         </div>
+      </section>
+     
+      <!-- Info Section -->
+      <section class="motive">
+         <div class="info" >
+            <p>Dive into the world of Chaugule art, where <span class="underline-brown">ancient tribal stories</span> are brought to life through exquisite <span class="underline-brown">handcrafted</span> paintings and designs.</p>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+       <section class="products" id="products">
+         <h1 class="heading"> Our Bestsellers</h1>
+         
+         <div class="swiper product-slider"> 
+
+            <div class="swiper-wrapper"> 
+
+               <div class="swiper-slide box">
+                  <img src="./images/product2.jpeg">
+                  <h1> Agriculture Chaugule Painting</h1>
+                  <p>By Onkar Chaugule</p>
+                  <p>Farming scenes in intricate art.</p>
+                  <div class="price">₹600/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+               <div class="swiper-slide box">
+                  <img src="./images/product3.jpg">
+                  <h1> Tribal Celebration Painting</h1>
+                  <p>By Shankar Chaugule</p>
+                  <p>Vibrant festivities captured in paintings.</p>
+                  <div class="price">₹750/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+               <div class="swiper-slide box">
+                  <img src="./images/product6.jpeg">
+                  <h1> Circular Painting</h1>
+                  <p>By Mahesh Chaugule</p>
+                  <p>Intricate designs in circular compositions.</p>
+                  <div class="price">₹800/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+               <div class="swiper-slide box">
+                  <img src="./images/product13.jpeg">
+                  <h1>Dancing Doll Craft</h1>
+                  <p>By Megha Chaugule</p>
+                  <p> Joyful dances depicted in classic style.</p>
+                  <div class="price">₹550/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+               <div class="swiper-slide box">
+                  <img src="./images/">
+                  <h1> Ecosystem Painting</h1>
+                  <p>By Tejas Chaugule</p>
+                  <p>Nature and life harmonized in art.</p>
+                  <div class="price">₹400/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+               <div class="swiper-slide box">
+                  <img src="./images/product16.jpeg">
+                  <h1>Cooking Chaugule</h1>
+                  <p>By Shreyash Chaugule</p>
+                  <p>Traditional culinary scenes in paintings.</p>
+                  <div class="price">₹450/-</div>
+                  <a href="#" class="btn">Buy Now</a>
+               </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+         </div> 
+      </section> 
+
+      <!-- About Us Section -->
+      <h1 class="heading"> Our Journey</h1>
+       <section class="about" id="about">
+          <div>
+            <p>We began with a passion for Chaugule art, the stunning tribal paintings from Maharashtra. Our skilled artisans, masters of this age-old craft, blend traditional techniques with modern designs. Each piece tells a timeless story and brings the beauty of Chaugule art into today's homes. Join us in celebrating this rich heritage and making it a part of your life.</p>
+          </div>
+       </section>
+
+       <!-- Contact Us Section -->
+       <h1 class="heading">Connect with Us</h1>
+       <section class="contact-section" id="contact">
+         
+         <form id="contactForm" onsubmit="return validateForm()">
+             <div class="form-group">
+                 <label for="name">Name</label>
+                 <input type="text" id="name" name="name" placeholder="Your Name">
+             </div>
+             <div class="form-group">
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email" placeholder="Your Email">
+             </div>
+             <div class="form-group">
+                 <label for="message">Message</label>
+                 <textarea id="message" name="message" placeholder="Your Message"></textarea>
+             </div>
+             <input type="submit" value="Send Message" class="btn">
+         </form>
+         <div id="errorMessage" class="error-message"></div>
+     </section>
+        
+      <!-- Footer Section -->
+       <section class="footer">
+           <div class="box-container">
+
+             <div class="box">
+               <h3><i class="fa-solid fa-paintbrush"></i> Chaugule Stories</h3>
+               <p>
+                  Be Part of Our Story on Social Media
+               </p>
+               <div class="share">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-linkedin"></a>
+               </div>
+             </div>
+
+             <div class="box">
+               <h3> Contact Info</h3>
+               <a href="#" class="links"> <i class="fa fa-phone"></i> +91 8767745177</a>
+               <a href="#" class="links"> <i class="fa fa-phone"></i> +91 9529551429</a>
+               <a href="#" class="links"> <i class="fa fa-envelope"></i> query@gmail.com</a>
+               <a href="#" class="links"> <i class="fa fa-map-marker"></i> Sangli,Maharashtra</a>
+             </div>
+
+             <div class="box">
+               <h3> Quick Links</h3>
+               <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a>
+               <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Products</a>
+               <a href="#" class="links"> <i class="fa fa-arrow-right"></i> About Us</a>
+               <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Contact Us</a>
+             </div>
+
+             <div class="box">
+               <h3> Newsletter </h3>
+               <p>Subscribe For Latest Updates</p>
+               <input type="email" placeholder="Your Email" class="emails">
+               <input type="submit" value="Subscribe" class="btn">  
+             </div>
+
+           </div>
+
+           <div class="credits">
+                Made with ♡ by Bhagyashri
+           </div>
+       </section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/9f0e075bbb.js" crossorigin="anonymous"></script>
+</body>
+</html>
